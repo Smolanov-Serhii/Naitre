@@ -21,6 +21,7 @@ const sass = require('gulp-sass');
 //Порядок подключения файлов со стилями
 const styleClientFiles = [
    // './src/client/scss/_swiper-bundle.scss',
+   './src/client/scss/aos.scss',
    './src/client/scss/main.scss'
 
 

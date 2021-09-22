@@ -51,6 +51,7 @@ if ( ! function_exists( 'naitre_setup' ) ) :
 		register_nav_menus(
 			array(
 				'Main-menu' => esc_html__( 'Главное меню', 'naitre' ),
+				'Footer-menu' => esc_html__( 'Нижнее меню', 'naitre' ),
 			)
 		);
 
@@ -124,9 +125,9 @@ add_action( 'after_setup_theme', 'naitre_content_width', 0 );
 function naitre_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'naitre' ),
-			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'naitre' ),
+			'name'          => esc_html__( 'Подписка', 'naitre' ),
+			'id'            => 'newsletter',
+			'description'   => esc_html__( 'Добавте виджет подписки.', 'naitre' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="widget-title">',

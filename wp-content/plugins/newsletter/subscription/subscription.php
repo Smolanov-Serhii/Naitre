@@ -1327,9 +1327,9 @@ class NewsletterSubscription extends NewsletterModule {
             $buffer .= '<div class="tnp-field tnp-field-email">';
             $buffer .= $this->_shortcode_label('email', $attrs);
 
-            $buffer .= '<input class="tnp-email" type="email" name="ne" value=""';
+            $buffer .= '<input placeholder="Введите e-mail" class="tnp-email" type="email" name="ne" value=""';
             if (isset($attrs['placeholder'])) {
-                $buffer .= ' placeholder="' . esc_attr($attrs['placeholder']) . '"';
+                $buffer .= ' placeholder="Введите e-mail"';
             }
             $buffer .= ' required>';
             if (isset($attrs['button_label'])) {
