@@ -80,6 +80,21 @@ $post_id = get_the_ID();
             </div>
         </div>
     </section>
+    <section class="video" style="display: none" id="video">
+        <div class="video__container main-container">
+            <div class="video__list">
+                <a href="https://drive.google.com/file/d/1yCyEzwfv5lPfZJM3K7vbvGRaotEdBm9q/view?usp=sharing" class="video__item">
+                    <img src="<?php echo get_template_directory_uri();?>/img/1.jpg" alt="Элемент дизайна">
+                </a>
+                <a href="https://drive.google.com/file/d/1VzS1dVYW9T-eWERuCxqvHjX4JzzWKqUc/view?usp=sharing" class="video__item">
+                    <img src="<?php echo get_template_directory_uri();?>/img/2.jpg" alt="Элемент дизайна">
+                </a>
+                <a href="https://drive.google.com/file/d/1GkwzpyQ8Z5KxOuHVmnWIt087f4EgQMQk/view?usp=sharing" class="video__item">
+                    <img src="<?php echo get_template_directory_uri();?>/img/3.jpg" alt="Элемент дизайна">
+                </a>
+            </div>
+        </div>
+    </section>
     <section class="text-block" id="text-block">
         <div class="text-block__design">
             <img src="<?php echo get_template_directory_uri();?>/img/perf.png" alt="Элемент дизайна">
